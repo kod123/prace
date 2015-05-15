@@ -1,0 +1,56 @@
+
+
+body{
+   background:#FFE4B5;
+   font: 100% "Trebuchet MS", Verdana, sans-serif;
+  
+}
+
+form {
+  border: solid #BDB76B 1px;
+   padding: 10px 10px 10px 10px;
+}
+
+#kontejner {
+   max-width: 600px;
+  margin: 30px auto auto auto; 
+   background:#FFFFE0;
+
+  	-webkit-box-shadow: 0px 0px 30px #000; /* Saf3.0+, Chrome */
+      -moz-box-shadow: 0px 0px 30px #000; /* FF3.5 - 3.6 */
+           box-shadow: 0px 0px 30px #000; /* Opera 10.5, IE9, FF4+, Chrome 10+ */
+}
+
+textarea{
+  width: 565px;
+  max-width: 565px;
+}
+
+input {
+  width: 160px;
+  height: 60px;
+  margin-left: 210px; 
+  box-shadow: 3px 3px 3px #333;
+  border-radius: 4px;
+  background-color: #BDB76B;
+  cursor: pointer;
+  text-shadow: 1px 1px 0px #CCC;
+  
+}
+h1 {
+  text-align: center;
+}
+.nazvy {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 5px 0 5px 0;
+}
+
+#morObrazek {
+  border-radius: 20px;
+  margin-left: 90px;
+}
+
+#vstup{
+  margin-bottom:20px;
+  }

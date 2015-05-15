@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Untitled 1</title>
+</head>
+
+<body>
+
+<div id="zobrazeni"></div>
+
+<img class="obrazek" alt ="ab1" rel="obrazky/obrazky_galerie/ab1.jpg" src="obrazky_galerie/ab1.jpg" width="320" height="240">
+<img class="obrazek" alt ="ab2" rel="obrazky/obrazky_galerie/ab2.jpg" src="obrazky_galerie/ab2.jpg" width="320" height="240">
+<img class="obrazek" alt ="ab3" rel="obrazky/obrazky_galerie/ab3.jpg" src="obrazky_galerie/ab3.jpg" width="320" height="240">
+
+
+
+ <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script>
+  $(document).ready(function()
+    {
+    $(".obrazek").mouseenter(function(){
+   		var ob = $(this).attr("rel")
+         $( ".obrazek" ).fadeIn( "slow", function() {
+   		 // Animation complete
+   		   $( "#zobrazeni" ).html("<img src="+ob+">");
+ 		 });
+    });
+    
+    
+	});
+  
+  </script>
+	
+
+
+</body>
+
+</html>

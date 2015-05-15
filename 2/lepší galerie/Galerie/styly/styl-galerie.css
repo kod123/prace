@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 100%; 
+  background: #D3D3D3; 
+}
+
+.bezMezery {
+  background: #FFA07A;
+  width: 720px;
+  padding: 0px 10px 10px 10px;
+  border-bottom: 5px outset #B22222;
+  border-left: 5px outset #B22222;
+  border-right: 5px outset #B22222;
+  -webkit-border-bottom-left-radius: 5px;   
+  -webkit-border-bottom-right-radius: 5px; 
+}
+
+#zobrazeni {
+  background: #FF8C00;
+  max-width: 1160px;
+  margin: 50px auto auto auto;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  border-radius: 5px;
+  border: 5px solid #cd853f;
+}
+
+form {
+  margin: 30px;
+}
+
+.informace {
+  background: #FFA07A;
+  width: 720px;
+  padding: 10px 10px 0 10px;
+  margin-top: 25px;
+  border-top: 5px outset #B22222;
+  border-left: 5px outset #B22222;
+  border-right: 5px outset #B22222;
+  -webkit-border-top-left-radius: 5px;   
+  -webkit-border-top-right-radius: 5px;
+}
+
+
+
+h1 {
+  background-color: #377D87;
+  color: #fff;
+  font-size: 2.1em;  
+  text-shadow: #9fbeb91px 1px 1px;
+  text-transform: uppercase;
+  width: 230px;
+  margin: 10px auto auto auto; 
+  padding: 0.3em 1em;
+  border-bottom: 1px solid #d4d4d4;
+  border-top: 1px solid #d4d4d4;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px #ccc;  
+}
+
+#soubor {
+  width: 400px;
+}
+
+#neplatnySoubor {
+  color: red;
+  margin-left: 130px; 
+   
+}
+
+#ramecek {
+  border: 2px solid black;  
+}
+
+.mezeryObrazky {
+  text-decoration: none;
+}
+
+#odhlaseni {
+  background-color: #da820a;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 30px; 
+/*  margin-top: -5000px; */ 
+ /* margin-left: 1090px;  */
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+ /* position: relative;   */
+  box-shadow: 2px 2px 2px #333;
+  cursor: pointer;
+  text-shadow: 1px 1px 0px #ccc;
+}
+#odhlaseniTlacitko {
+ margin-top: 35px;
+}
+
+#zmenaHesla {
+  position: relative;
+  float: right;
+  margin-right: 40px;
+  margin-top: -30px;
+}
+ /*
+@media only screen and (min-width: 1600px)
+{
+#odhlaseni {
+   margin-left: 1255px;
+   }
+}
+
+@media only screen and (min-width: 992px) 
+{
+  #odhlaseni {
+   margin-left: 820px;
+   }
+}
+
+
+@media only screen and (max-width: 480px) 
+{
+   #odhlaseni {
+   margin-left: 295px;
+   }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) 
+{
+  #odhlaseni {
+   margin-left: 295px;
+   }
+
+}   /*

@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Sample Form</title>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script src="rls.js" type="text/javascript"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <h1>Sample Form</h1>
+    <form method="get" action="result.html">
+    <table>
+        <tr>
+            <th>Name:</th>
+            <td>
+                <input type="text" name="name" required="required" data-rls-id="name" class="tb" />
+            </td>
+        </tr>
+        <tr>
+            <th>E-mail:</th>
+            <td>
+                <input type="email" name="email" required="required" data-rls-id="email" class="tb" />
+            </td>
+        </tr>
+        <tr>
+            <th>CAPTCHA:</th>
+            <td>
+                <div id="captcha">
+                    (picture should be here, type anything below)
+                </div>
+                <input type="text" name="captcha" required="required" class="tb" />
+            </td>
+        </tr>
+        <tr>
+            <th>Comment:</th>
+            <td>
+                <textarea name="comment" rows="5" cols="40" required="required" data-rls-id="comment" class="tb"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <th></th>
+            <td>
+                <input type="submit" value="Submit" class="btn" />
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

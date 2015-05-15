@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+   <meta charset="utf-8">
+	<meta name="description" content="">  
+	<meta name="author" content="">
+  
+
+</head>
+
+<body>
+  <a href="#" id="show">Efekt show</a>
+  <a href="#" id="hide">Efekt hide</a>
+  
+  <p id="text">Lorem ipsum Ullamco commodo laboris sit dolore commodo aliquip incididunt fugiat esse dolor aute fugiat minim eiusmod do velit labore fugiat officia ad sit culpa labore in consectetur sint cillum sint consectetur voluptate adipisicing Duis irure magna ut sit amet reprehenderit.</p>
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script>
+    $(document).ready(function()
+    {
+       $('#text').hide(10000);
+       
+       $('#show').click(function(){
+            $('#text').show(10000);
+       });
+       
+       $('#hide').click(function(){
+            $('#text').hide(10000);
+       });
+    });
+  </script>
+
+</body>
+</html>

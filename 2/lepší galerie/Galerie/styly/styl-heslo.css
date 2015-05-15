@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+body {
+  font-size: 100%;
+  font-family: Arial, sans-serif;
+}
+
+#obal {
+  width: 600px;  
+}
+
+h2 {
+  background-color: #dedede;
+  border-bottom: 1px solid #d4d4d4;
+  border-top: 1px solid #d4d4d4;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px #ccc;
+  color: #fff;
+  font-size: 1.1em;
+  margin: 12px;
+  padding: 0.3em 1em;
+  text-shadow: #9FBEB9 1px 1px 1px;
+  text-transform: uppercase;
+}
+
+h2.email { background-color: #0B5586; }
+
+
+legend {
+  background-color: #dedede;
+  border-top: 1px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
+  -moz-box-shadow: 3px 3px 3px #ccc;
+  -webkit-box-shadow: 3px 3px 3px #ccc;
+  box-shadow: 3px 3px 3px #ccc;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  padding: 0.3em 1em;
+}
+
+fieldset {
+  background-color: #f1f1f1;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 12px;
+  overflow: hidden;
+  padding: 0 10px;
+}
+
+ul {
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+  list-style: none;
+  margin: 12px;
+  padding: 12px;
+}
+
+li {
+  margin: 0.5em 0;
+}
+
+label {
+  display: inline-block;
+  padding: 3px 6px;
+  text-align: right;
+  width: 150px;
+  vertical-align: top;
+     
+}
+
+input, select, button {
+  font: inherit;
+}
+
+.velke {
+  width: 250px;
+}
+
+textarea {
+  font: inherit;
+  width: 250px;
+}
+
+.vytvorit_ucet {
+  background-color: #DA820A;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px #333;
+  cursor: pointer;
+  color: #fff;
+  margin: 12px;
+  padding: 8px;
+  text-shadow: 1px 1px 0px #CCC;
+}
+
+.prepinace ul {
+  border: none;
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+button * {
+  vertical-align: middle;
+}
+
+#ulozeno {
+  background-color: #FFCC33;
+  font-weight: bold;
+  margin-top: 25px;
+  padding: 10px;
+  padding-left: 80px;
+  width: 510px;
+}
+
+#chyba {
+  background-color: #CC3333;
+  font-weight: bold;
+  margin-top: 25px;
+  padding: 10px;
+  padding-left: 170px; 
+  width: 415px;
+}
+
+.povinne {
+  color: red;
+}
+
+#popisPovinne {
+  margin-left: 390px;
+}
+
+#prihlaseni {
+  margin-left: 340px; 
+}
+
+#uzivatelEmail {
+  padding-left: 125px;  
+}
+
+.chyba {
+  background-color: #CC3333;
+  font-weight: bold;
+  margin-top: 25px;
+  padding: 10px; 
+}
+
+#ulozeno {
+  background-color: #FFCC33;
+  font-weight: bold;
+  margin-top: 25px;
+  padding: 10px;
+  padding-left: 140px;
+  width: 450px;
+}
+
+
+

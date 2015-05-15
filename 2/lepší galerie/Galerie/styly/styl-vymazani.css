@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.chyba {
+  margin-left: 30px; 
+  color: red;
+}
+
+#zpetGalerie {
+  background-color: #da820a;
+  color: #fff;
+  text-shadow: 1px 1px 0px #ccc;
+  margin: 12px;
+  padding: 8px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px #333;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 50px;
+}
+
+#tlacitkoGalerie {
+  margin-top: 30px;
+}
+
+#odsazeniChyba {
+  margin-top: 25px;
+}
+
+#zpravaPoradek {
+  margin-left: 30px; 
+}
